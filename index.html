@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cookie Counter</title>
+</head>
+
+<body>
+    <div class="container my_container">
+        <div class="container border border-3 d-flex justify-content-center  ">
+            <img class="" onclick="counter()" id="myImage" src="images/cookie.jpg" alt="cookie" srcset="">
+            <h1>Number of clicks : <span id="result"> 0 </span> </h1>
+            <button class="btn btn-lg btn-danger  m-2" id="reseat" onclick="reseater()">Reseat</button>
+        </div>
+
+        <div class="container">
+
+            <div class="row d-flex justify-content-center">
+
+                <button onclick="achievement1()" class="btn btn-success col col-3 gap-1 m-2">
+                    <h5> +4 cookie per click : 50 cookies </h5>
+                </button>
+
+                <button class="btn  col col-3 gap-1 m-2 disabled">
+                    <h5> Coming soon ... </h5>
+                </button>
+
+                <button class="btn  col col-3 gap-1 desact disabled ">
+                    <h5> Coming soon ... </h5>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
